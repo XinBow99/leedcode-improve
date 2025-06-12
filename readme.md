@@ -18,7 +18,7 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 
 | Problem # | Title                                          | Difficulty | Link                                                                                  | Language |
 | --------- | ---------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | -------- | 
-| 1         | Two Sum                                        | Easy       | [Link](https://leetcode.com/problems/two-sum/)                                        | Python   |
+| 1         | Two Sum                                        | Easy       | [Link](./easy/twosum.py)                                        | Python   |
 
 ---
 
