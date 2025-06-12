@@ -33,4 +33,7 @@ class Solution:
             rabbit = nums[rabbit]
 
         # Step 4: The point where they meet is the duplicate number.
+
+        # time: O(n)
+        # space O(1)
         return turtle
