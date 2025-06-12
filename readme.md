@@ -19,6 +19,7 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
  | Title                                          | Difficulty | Link                                                                                  | Language |
  | ---------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | -------- | 
 | Two Sum                                        | Easy       | [Link](./0612/easy/twosum.py)                                        | Python   |
+| Find the Duplicate Number                     | Medium     | [Link](./0612/medium/findDuplicate.py)                      | Python   |
 
 ---
 
