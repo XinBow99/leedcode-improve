@@ -51,6 +51,7 @@ class Solution:
         # i = 1, num = 2, target - num = 5 -> store {5: 1}
         # i = 2, num = 3, target - num = 4 -> store {4: 2}
         # i = 3, num = 4 -> found in dict (4 in seen), return [3, seen[4]] = [3, 2]
+        # time complexity O(n)
         seen = {}
 
         for i, num in enumerate(nums):
