@@ -35,5 +35,4 @@ class Solution:
             countT[t[i]] = 1+countT.get(t[i],0)
         # Time complexity: O(n+m) 
         # Space complexity: O(1)
-    
         return countS == countT
