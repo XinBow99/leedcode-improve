@@ -33,21 +33,37 @@ Constraints:
 Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n)).
 """
 from typing import List
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        l = 0
-        total = 0
-        res = float('inf')
+        """Finds the minimal length of a contiguous subarray of which 
+        the sum is at least target.
+
+        Uses sliding window approach to maintain current subarray.
+
+        Args:
+            target: Target sum.
+            nums: List of positive integers.
+
+        Returns:
+            The minimal length of the subarray; 0 if no valid subarray exists.
+        """
+        l = 0  # Left boundary of sliding window
+        total = 0  # Current window sum
+        res = float('inf')  # Result placeholder
+
         for r in range(len(nums)):
-            # sliding 
-            # [nums[0]] less than target, r+1
-            # [nums[0], nums[1]]...
-            # [nums[0], nums[n]] bigger than target, l+1 and - nums[l]
-            # [nums[0], nums[n]] equal  target, l+1 and - nums[l]
+            # Expand window by adding nums[r]
             total += nums[r]
+
+            # Contract window while the sum is enough
             while total >= target:
-                res = min(r-l+1, res)
+                # Update result with smaller window
+                res = min(res, r - l + 1)
+                # Shrink window from the left
                 total -= nums[l]
                 l += 1
-                
-        return 0 if total != target else res
+
+        return 0 if res == float('inf') else res
+
+print(Solution.minSubArrayLen(None, 7, [2,3,1,2,4,3]))
