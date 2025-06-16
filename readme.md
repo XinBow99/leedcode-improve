@@ -16,24 +16,23 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 
 ## 📖 Problem Log
 
- | Title                                          | Difficulty | Link                                                                                  | Language |
- | ---------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | -------- | 
-| Two Sum                                        | Easy       | [Link](./0612/easy/twosum.py)                                        | Python   |
-| Find the Duplicate Number                     | Medium     | [Link](./0612/medium/findDuplicate.py)                      | Python   |
-| Group Anagrams                                 | Medium     | [Link](./0613/medium/groupAnagrams.py)                           | Python   |
-| Top K Frequent Elements                        | Medium     | [Link](./0613/medium/topKFrequentElements.py)                             | Python   |
-| Valid Anagram                                  | Easy       | [Link](./0613/easy/validAnagram.py)                                 | Python   |
+| Title                        | Difficulty | Language | Algorithm   |
+| ---------------------------- | ---------- | -------- | ----------- |
+| Two Sum                      | Easy       | Python   |             |
+| Find the Duplicate Number    | Medium     | Python   |             |
+| Group Anagrams               | Medium     | Python   | hashtable   |
+| Top K Frequent Elements      | Medium     | Python   | Bucket Sort |
+| Valid Anagram                | Easy       | Python   | hashtable   |
+| Product of Array Except Self | Medium     | Python   | Prefix Sum  |
 
 ---
 
 ## 📚 References
 
-* [LeetCode-Py](https://github.com/itcharge/LeetCode-Py/)
-* [Bucket Sort](https://hackmd.io/@meyr543/H1xfQewz5)
-* [Priority Queue](https://medium.com/@chacha0519/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-priority-queue-28838a492a58)
-
+- [LeetCode-Py](https://github.com/itcharge/LeetCode-Py/)
+- [Bucket Sort](https://hackmd.io/@meyr543/H1xfQewz5)
+- [Priority Queue](https://medium.com/@chacha0519/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-priority-queue-28838a492a58)
 
 ---
 
 # 🚀
-
