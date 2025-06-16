@@ -25,6 +25,7 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 | Valid Anagram                | Easy       | Python   | hashtable      |
 | Product of Array Except Self | Medium     | Python   | Prefix Sum     |
 | Minimum Size Subarray Sum    | Medium     | Python   | Sliding Window |
+| Longest Consecutive Sequence | Medium     | Python   | Hash Set       |
 
 ---
 
