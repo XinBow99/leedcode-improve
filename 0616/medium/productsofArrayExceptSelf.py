@@ -32,7 +32,9 @@ from typing import List
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        """Returns an array where each element is the product of all 
+        """
+        This solution are using Prefix.
+        Returns an array where each element is the product of all 
         other elements except itself.
 
         This solution avoids using division and runs in O(n) time.

@@ -1,4 +1,4 @@
-# 🚀 LeetCode Tracker!!!
+# 🚀 LeetCode Tracker
 
 This repository is created to keep track of my LeetCode progress and notes. Problems are organized by difficulty into `easy/`, `medium/`, and `hard/` directories. My goal is to continuously improve my skills in algorithms and data structures 💪
 
@@ -16,16 +16,17 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 
 ## 📖 Problem Log
 
-| Title                        | Difficulty | Language | Algorithm      |
-| ---------------------------- | ---------- | -------- | -------------- |
-| Two Sum                      | Easy       | Python   |                |
-| Find the Duplicate Number    | Medium     | Python   |                |
-| Group Anagrams               | Medium     | Python   | hashtable      |
-| Top K Frequent Elements      | Medium     | Python   | Bucket Sort    |
-| Valid Anagram                | Easy       | Python   | hashtable      |
-| Product of Array Except Self | Medium     | Python   | Prefix Sum     |
-| Minimum Size Subarray Sum    | Medium     | Python   | Sliding Window |
-| Longest Consecutive Sequence | Medium     | Python   | Hash Set       |
+| Title                        | Difficulty | Language | Algorithm             |
+| ---------------------------- | ---------- | -------- | --------------------- |
+| Two Sum                      | Easy       | Python   |                       |
+| Find the Duplicate Number    | Medium     | Python   |                       |
+| Group Anagrams               | Medium     | Python   | hashtable             |
+| Top K Frequent Elements      | Medium     | Python   | Bucket Sort           |
+| Valid Anagram                | Easy       | Python   | hashtable             |
+| Product of Array Except Self | Medium     | Python   | Prefix Sum            |
+| Minimum Size Subarray Sum    | Medium     | Python   | Sliding Window        |
+| Longest Consecutive Sequence | Medium     | Python   | Hash Set              |
+| Is Palindrome                | Easy       | Python   | Two Pointers, reverse |
 
 ---
 
