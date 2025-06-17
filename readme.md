@@ -27,7 +27,7 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 | Minimum Size Subarray Sum    | Medium     | Python   | Sliding Window                               |
 | Longest Consecutive Sequence | Medium     | Python   | Hash Set                                     |
 | Is Palindrome                | Easy       | Python   | Two Pointers, reverse                        |
-| Two Integer Sum II           | Medium       | Python   | Two Pointers O(n), binary O(n Log n), O(n^2) |
+| Two Integer Sum II           | Medium     | Python   | Two Pointers O(n), binary O(n Log n), O(n^2) |
 
 ---
 
