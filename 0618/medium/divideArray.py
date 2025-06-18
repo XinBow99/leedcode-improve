@@ -49,16 +49,32 @@ Explanation:
 The difference between any two elements in each array is less than or equal to 14.
 """
 from typing import List
+
 class Solution:
     def divideArray(self, nums: List[int], k: int) -> List[List[int]]:
-        nums.sort() # time complexity: O(n log n); space O(n)
+        """
+        Divide the array into triplets where the max diff between elements in
+        each triplet is <= k. Return the list of triplets or [] if impossible.
+
+        Args:
+            nums: List[int] - input array with length divisible by 3
+            k: int - max allowed difference in a triplet
+
+        Returns:
+            List[List[int]]: list of triplets if valid; otherwise, empty list.
+        """
+        nums.sort()  # O(n log n)
         res = []
 
         for i in range(0, len(nums), 3):
+            # If the difference between the smallest and largest in triplet > k, invalid
             if nums[i+2] - nums[i] > k:
                 return []
             res.append([nums[i], nums[i+1], nums[i+2]])
+
         return res
+
 if __name__ == "__main__":
     sol = Solution()
+    # Output: [[1,1,3],[3,4,5],[7,8,9]]
     print(sol.divideArray([1,3,4,8,7,9,3,5,1], 2))

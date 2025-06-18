@@ -16,18 +16,20 @@ This repository is created to keep track of my LeetCode progress and notes. Prob
 
 ## 📖 Problem Log
 
-| Title                        | Difficulty | Language | Algorithm                                    |
-| ---------------------------- | ---------- | -------- | -------------------------------------------- |
-| Two Sum                      | Easy       | Python   |                                              |
-| Find the Duplicate Number    | Medium     | Python   |                                              |
-| Group Anagrams               | Medium     | Python   | hashtable                                    |
-| Top K Frequent Elements      | Medium     | Python   | Bucket Sort                                  |
-| Valid Anagram                | Easy       | Python   | hashtable                                    |
-| Product of Array Except Self | Medium     | Python   | Prefix Sum                                   |
-| Minimum Size Subarray Sum    | Medium     | Python   | Sliding Window                               |
-| Longest Consecutive Sequence | Medium     | Python   | Hash Set                                     |
-| Is Palindrome                | Easy       | Python   | Two Pointers, reverse                        |
-| Two Integer Sum II           | Medium     | Python   | Two Pointers O(n), binary O(n Log n), O(n^2) |
+| Title                                        | Difficulty | Language | Algorithm                                    |
+| -------------------------------------------- | ---------- | -------- | -------------------------------------------- |
+| Two Sum                                      | Easy       | Python   |                                              |
+| Find the Duplicate Number                    | Medium     | Python   |                                              |
+| Group Anagrams                               | Medium     | Python   | hashtable                                    |
+| Top K Frequent Elements                      | Medium     | Python   | Bucket Sort                                  |
+| Valid Anagram                                | Easy       | Python   | hashtable                                    |
+| Product of Array Except Self                 | Medium     | Python   | Prefix Sum                                   |
+| Minimum Size Subarray Sum                    | Medium     | Python   | Sliding Window                               |
+| Longest Consecutive Sequence                 | Medium     | Python   | Hash Set                                     |
+| Is Palindrome                                | Easy       | Python   | Two Pointers, reverse                        |
+| Two Integer Sum II                           | Medium     | Python   | Two Pointers O(n), binary O(n Log n), O(n^2) |
+| 3Sum                                         | Medium     | Python   | Two Pointers O(n^2), Hash Set O(n^2)         |
+| Divide Array Into Arrays With Max Difference | Medium     | Python   | Greedy                                       |
 
 ---
 
